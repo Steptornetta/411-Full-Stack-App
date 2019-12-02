@@ -11,6 +11,9 @@ Mad Lib Application
 Front-End:
 	JS, HTML, CSS
 	Vue.js?
+	Multiple pages:
+		Home Page --> Filling out Madlib
+				  --> Creating new Madlib template and upload
 
 Back-End:
 	Express.js 
