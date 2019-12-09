@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+        <title>MadLib HTML</title>
+        <meta charset="utf-8">
   </head>
 
   <body>
-  	
+        <table id = "welcometable" width= "100%" style=" border: solid;">
+          <tr>            
+            <th id = "nametxt">Enter your Username or Search for a Username:<input type="text" id = "username"><button = onclick="getReservation()">Submit</button></th>
+          </tr>
+          <tr bgcolor="pink">
+            <th>Username</th>            
+            <th>StartDate</th>            
+            <th>StartTime</th>            
+            <th>Hours</th>   
+          </tr>
+        </table>
 
-  	<script type="text/javascript">
-  		
-  	</script>
+        <table id ="reservationtable" width= "100%" style="border: solid;">
+          <tr bgcolor="teal">
+            <th>Username</th>            
+            <th>StartDate</th>            
+            <th>StartTime</th>            
+            <th>Hours</th>            
+            <th><button = onclick="getReservationList()">Get List</button>
+            </th>            
+          </tr>
+        </table>
+
+        <script src = "Client.js"></script>
+
   </body>
+
 </html>
