@@ -7,29 +7,46 @@
 
   <body>
         <table id = "welcometable" width= "100%" style=" border: solid;">
-          <tr>            
-            <th id = "nametxt">Enter your Username or Search for a Username:<input type="text" id = "username"><button = onclick="getReservation()">Submit</button></th>
-          </tr>
           <tr bgcolor="pink">
-            <th>Username</th>            
-            <th>StartDate</th>            
-            <th>StartTime</th>            
-            <th>Hours</th>   
+            <th>Word 1(Adj)</th>   
+            <th>Word 2(Noun)</th>            
+            <th>Word 3(Noun)</th>            
+            <th>Word 4(Adj)</th>   
+            <th>Word 5(Noun)</th>            
+            <th>Word 6(Noun)</th>            
+            <th>Word 7(Noun)</th>            
+            <th>Word 8(Adj)</th>            
+            <th>Word 9(Noun)</th>            
+            <th>Word 10(Adverb)</th>    
+            <th>Word 11(Noun)</th>            
+
+          </tr>
+          <tr>
+            <td><input type="text" id = "word1"></td>
+            <td><input type="text" id = "word2"></td>
+            <td><input type="text" id = "word3"></td>
+            <td><input type="text" id = "word4"></td>
+            <td><input type="text" id = "word5"></td>
+            <td><input type="text" id = "word6"></td>
+            <td><input type="text" id = "word7"></td>
+            <td><input type="text" id = "word8"></td>
+            <td><input type="text" id = "word9"></td>
+            <td><input type="text" id = "word10"></td>
+            <td><input type="text" id = "word11"></td>
+
           </tr>
         </table>
 
-        <table id ="reservationtable" width= "100%" style="border: solid;">
+        <table id ="storytable" width= "100%" style="border: solid;">
           <tr bgcolor="teal">
-            <th>Username</th>            
-            <th>StartDate</th>            
-            <th>StartTime</th>            
-            <th>Hours</th>            
-            <th><button = onclick="getReservationList()">Get List</button>
+            <th>Story</th>           
+            <th>Click the GetMadlib button once you have entered in all 11 words</th>        
+            <th><button = onclick="getMadLib()">Get Madib</button>
             </th>            
           </tr>
         </table>
 
-        <script src = "Client.js"></script>
+        <script src = "client.js"></script>
 
   </body>
 
